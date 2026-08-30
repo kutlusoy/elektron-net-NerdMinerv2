@@ -21,18 +21,18 @@
 #define UPDATE_BTC_min   1
 
 //API Block height
-#define getHeightAPI "https://mempool.space/api/blocks/tip/height"
+#define getHeightAPI "https://mempool.elektron-net.org/api/blocks/tip/height"
 #define UPDATE_Height_min 2
 
 //APIs Global Stats
-#define getGlobalHash "https://mempool.space/api/v1/mining/hashrate/3d"
-#define getDifficulty "https://mempool.space/api/v1/difficulty-adjustment"
-#define getFees "https://mempool.space/api/v1/fees/recommended"
+#define getGlobalHash "https://mempool.elektron-net.org/api/v1/mining/hashrate/3d"
+#define getDifficulty "https://mempool.elektron-net.org/api/v1/difficulty-adjustment"
+#define getFees "https://mempool.elektron-net.org/api/v1/fees/recommended"
 #define UPDATE_Global_min 2
 
 //API public-pool.io
 // https://public-pool.io:40557/api/client/btcString
-#define getPublicPool "https://public-pool.io:40557/api/client/" // +btcString
+#define getPublicPool "https://pplns.elektron-net.org/api/client/" // +btcString
 #define UPDATE_POOL_min   1
 
 #define NEXT_HALVING_EVENT 1050000 //840000
