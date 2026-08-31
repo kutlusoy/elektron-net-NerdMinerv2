@@ -35,8 +35,8 @@
 #define getPublicPool "https://pplns.elektron-net.org/api/client/" // +btcString
 #define UPDATE_POOL_min   1
 
-#define NEXT_HALVING_EVENT 1050000 //840000
-#define HALVING_BLOCKS 210000
+#define NEXT_HALVING_EVENT 2102400 // next 4204800
+#define HALVING_BLOCKS 2102400
 
 enum NMState {
   NM_waitingConfig,
